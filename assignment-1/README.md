@@ -13,7 +13,7 @@ docker build -t shreyas-site
 Now we run the container using command : 
 
 ```bash
-docker run -d --name web -p 7070:70 nginx
+docker run -d --name web -p 7070:7000 shreyas-site
 ```
 The site can be tested by opening `http://localhost:7070` on a browser or using the curl command : 
 
